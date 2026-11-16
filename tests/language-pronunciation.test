@@ -318,6 +318,13 @@ test_phon pl "pROS;'imy" "prosimy"
 test_phon pl "m'aksim,um_" "maksimum"
 test_phon pl "g'uZ;ik" "guzik"
 test_phon pl "b,Ezimj'Enny" "bezimienny"
+# Soft si before b, c, d and r in native words; hard only in sic and final -sir.
+test_phon pl "kOS;'iba#_" "Kosiba"
+test_phon pl "gROS;'itski" "Grosicki"
+test_phon pl "S;'idEw_" "sideł"
+test_phon pl "S;iR'Ota#_" "Sirota"
+test_phon pl "s'its" "sic"
+test_phon pl "El'iksiR" "eliksir"
 
 # Prefix boundaries; preserve affricates where appropriate.
 # Separate phoneme names to distinguish d+z / d+Z from dz / dZ.
