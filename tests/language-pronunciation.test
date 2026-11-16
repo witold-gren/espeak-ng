@@ -355,6 +355,9 @@ test_phon pl "dv;'ES;ts;E" "200"
 # Regressions reported during review: native boundaries and retained loanwords.
 test_phon pl "ˌandʒɛlˈika" "Angelika" "" "--ipa"
 test_phon pl "ˌandʒɛlˈikɔ̃" "Angeliką" "" "--ipa"
+# Only Angelika has dż; other words starting with angel- keep ng.
+test_phon pl "aŋɡˈɛlizm" "angelizm" "" "--ipa"
+test_phon pl "ˌaŋɡɛlɔlˈɔɡja" "angelologia" "" "--ipa"
 test_phon pl "nˈawmjɛts" "Naumiec" "" "--ipa"
 test_phon pl "nɛmˈɛzis" "Nemezis" "" "--ipa"
 test_phon pl "ɕˈitaʃ" "Sitarz" "" "--ipa"
